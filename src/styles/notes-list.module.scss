@@ -1,0 +1,7 @@
+.container {
+  @apply p-4;
+
+  .unavailable {
+    @apply text-gray-600 tracking-wider text-4xl text-center;
+  }
+}

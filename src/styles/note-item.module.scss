@@ -1,0 +1,23 @@
+.container {
+  @apply p-4 mb-4 bg-white border rounded shadow;
+
+  .title {
+    @apply text-lg font-semibold;
+  }
+
+  .content {
+    @apply text-gray-700;
+  }
+
+  .buttonBox {
+    @apply flex justify-end mt-2 space-x-2;
+
+    .edit {
+      @apply px-4 py-1 text-white bg-green-500 rounded hover:bg-green-600;
+    }
+
+    .delete {
+      @apply px-4 py-1 text-white bg-red-500 rounded hover:bg-red-600;
+    }
+  }
+}

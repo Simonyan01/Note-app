@@ -1,0 +1,19 @@
+.form {
+  @apply p-4 bg-gray-100 rounded;
+
+  .inputGap {
+    @apply mb-4;
+
+    .label {
+      @apply block text-sm font-medium;
+    }
+
+    .typing {
+      @apply w-full px-2 py-1 border rounded;
+    }
+  }
+
+  .addButton {
+    @apply px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600;
+  }
+}
